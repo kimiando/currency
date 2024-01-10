@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   border: none;
   outline: none;
   box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Arsenal', sans-serif;
 }
 
 body {
@@ -39,7 +41,7 @@ body::after {
 }
 
 .container {
-  width: 25rem;
+  width: 30rem;
   color: #ffffff;
   background: #fbd3df;
   padding: 20px 30px;
@@ -51,7 +53,7 @@ body::after {
 }
 
 .container h2 {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   font-weight: 500;
   text-align: center;
   color: #fc8c94;
@@ -62,8 +64,9 @@ body::after {
 }
 
 .container form p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-bottom: 7px;
+  font-family: 'Arsenal', sans-serif;
 }
 
 .container form input {
@@ -148,8 +151,9 @@ body::after {
 }
 
 .container form .result {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin: 20px 0 30px;
+  color: #e2586c;
 }
 
 .container form button {
